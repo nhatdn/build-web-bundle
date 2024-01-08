@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SlickWrapper = styled.div `
+const SlickWrapper = styled.div`
   .slick-arrow {
     background: red;
   }

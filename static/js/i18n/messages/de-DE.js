@@ -1,10 +1,8 @@
-import {
-    LOCALES
-} from '../locales';
+import { LOCALES } from '../locales';
 
 export default {
-    [LOCALES.GERMAN]: {
-        hello: 'German',
-        path: 'German with {path}'
-    }
+  [LOCALES.GERMAN]: {
+    hello: 'German',
+    path: 'German with {path}'
+  }
 };

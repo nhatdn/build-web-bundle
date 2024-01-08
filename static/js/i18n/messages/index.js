@@ -6,11 +6,11 @@ import th from './th-TH';
 import id from './id-ID';
 import zh from './zh-CN';
 export default {
-    ...en,
-    ...vi,
-    ...th,
-    ...zh,
-    ...id,
-    ...de,
-    ...fr
+  ...en,
+  ...vi,
+  ...th,
+  ...zh,
+  ...id,
+  ...de,
+  ...fr
 };

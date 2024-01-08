@@ -1,10 +1,8 @@
-import {
-    LOCALES
-} from '../locales';
+import { LOCALES } from '../locales';
 
 export default {
-    [LOCALES.FRENCH]: {
-        hello: 'Bongjor',
-        path: 'Hello with {path}'
-    }
+  [LOCALES.FRENCH]: {
+    hello: 'Bongjor',
+    path: 'Hello with {path}'
+  }
 };
