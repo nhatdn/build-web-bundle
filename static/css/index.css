@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@font-face {
+    font-family: 'UTM_Guanine';
+    src: local('UTM_Guanine'), url(./fonts/00112-UTM-Guanine.ttf) format('woff');
+}
+
+@font-face {
+    font-family: 'Fira_Sans';
+    src: local('Fira_Sans'), url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Saira:wght@300;400;500&display=swap) format('woff');
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #f3b203 !important;
+}
+
+.mobile li {
+    width: 15px !important;
+}
+
+.slide-playgame .iTvAFi,
+.slider-news .iTvAFi {
+    padding-left: 0 !important;
+}
+
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+@keyframes ticker {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.ticker {
+    display: inline-block;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+}
+
+.animation-60 {
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+}
+
+.animation-90 {
+    -webkit-animation-duration: 90s;
+    animation-duration: 90s;
+}
+
+.ticker__item {
+    display: inline-block;
+}
+
+#news .hpzkJi,
+#gameplays .hpzkJi {
+    padding-left: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+/**  STYLE 2 */
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #9d0a0a;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #c8c8c8;
+}
+
+p.content-new {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
